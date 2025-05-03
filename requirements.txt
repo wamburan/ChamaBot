@@ -1,0 +1,6 @@
+fastapi==0.95.2
+
+python-dotenv==1.0.0
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.12.2
+uvicorn==0.22.0

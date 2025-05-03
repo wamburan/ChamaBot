@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UfalmeBot Chat</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- LOGO + Greeting -->
+        <div class="logo-container">
+            <img src="/static/logo.jpeg" alt="Ufalme Logo" class="logo">
+            <p class="greeting">
+                Hi, I am <strong>Ufalme Wetu Virtual Assistant</strong>.<br>
+                Ask me anything about chamas or microfinances.<br><br>
+                <em>Examples:</em><br>
+                • What is the interest rate?<br>
+                • How can I join you?
+            </p>
+        </div>
+
+        <!-- Chat area -->
+        <div id="chat-box" class="chat-box"></div>
+        <div class="input-area">
+            <input type="text" id="userInput" placeholder="Type your question..." />
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
